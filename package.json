@@ -9,8 +9,11 @@
     "prod": "webpack --mode production --module-bind tsx=ts-loader ./src/Index.tsx -o docs/app.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "email": "daniel.derevjanik@gmail.com",
+    "name": "Daniel Derevjanik"
+  },
+  "license": "MIT",
   "devDependencies": {
     "ts-loader": "^4.1.0",
     "typescript": "^2.7.2",
